@@ -1,0 +1,11 @@
+.main-content {
+    display: block;
+}
+.main-content-div {
+    display: flex;
+    flex-direction: column;
+}
+.header-div{
+    display: flex;
+
+}

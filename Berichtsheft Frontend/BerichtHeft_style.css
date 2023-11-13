@@ -1,25 +1,27 @@
 .main-content {
     display: block;
 }
+
 .main-content-div {
     display: flex;
     flex-direction: column;
 }
-.header-div{
+
+.header-div {
     display: flex;
 
 }
 
-.Ueberschrift{
+.Ueberschrift {
     text-align: center;
 
 }
 
-#Container{
+#Container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    
+
 }
 
 input[type=submit] {
@@ -29,9 +31,10 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  input[type=text], textarea {
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -39,12 +42,12 @@ input[type=submit] {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    height:200px;
+    height: 200px;
     resize: vertical;
-  }
-  
-  
-.flex-container{
+}
+
+
+.flex-container {
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -52,29 +55,39 @@ input[type=submit] {
     align-items: center;
 
 }
-.flex-child1{
+
+.flex-child1 {
     margin-left: 10px;
-
+    flex-direction: column;
+    display: flex;
 }
-.flex-child2{
+
+.flex-child2 {
     margin-right: 10px;
-
+    flex-direction: column;
+    display: flex;
 }
 
-#Zeit{
+#Zeit {
     display: flex;
     justify-content: center;
     font-size: smaller;
 
 }
 
-#Buttons{
+#Buttons {
     display: flex;
     justify-content: center;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-
-
+}
+button:hover{
+    transform: scale(101%);
+}
+#textInputSmall{
+    height: 20px;
+    width: 150px;
+    margin-top: 3%;
 }

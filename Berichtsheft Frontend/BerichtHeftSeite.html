@@ -53,34 +53,27 @@
     </nav>
 
     <div id="Zeit">
-        <h1>Zeitraum: xx.xx.xxxx</h1>
+        <h1>Zeitraum:</h1>
     </div>
 
     <div id="Container">
 
         <div class="flex-container">
             <div class="flex-child1">
-                <label for="fname">Ausbilder:</label>
-                <input type="text" id="name" name="Name"><br><br>
-
-                <label for="femail">Email:</label>
-                <input type="text" id="email" name="Email"><br><br>
-
+                <label for="fname">Ausbilder Name:</label>
+                <input type="text" id="textInputSmall" name="Name">
+                <label for="femail">Ausbilder Email:</label>
+                <input type="text" id="textInputSmall" name="Email">
                 <label for="fabteilung">Abteilung:</label>
-                <input type="text" id="abteilung" name="Abteilung"><br><br>
+                <input type="text" id="textInputSmall" name="Abteilung">
             </div>
             <div class="flex-child2">
-                <label for="fname">Name:</label>
-                <input type="text" id="name" name="Name"><br><br>
-
-                <label for="femail">Email:</label>
-                <input type="text" id="email" name="Email"><br><br>
-
+                <label for="fname">Azubi Name:</label>
+                <input type="text" id="textInputSmall" name="Name">
                 <label for="fausbildungszeitraum">Ausbildungszeitraum:</label>
-                <input type="text" id="ausbildungszeitraum" name="Ausbildungszeitraum"><br><br>
-
+                <input type="text" id="textInputSmall" name="Ausbildungszeitraum">
                 <label for="fausbildungsberuf">Ausbildungsberuf:</label>
-                <input type="text" id="ausbildungsberuf" name="Ausbildungsberuf"><br><br>
+                <input type="text" id="textInputSmall" name="Ausbildungsberuf">
             </div>
         </div>
         <form action="/action_page.php">
@@ -93,6 +86,7 @@
 
             <div id="Buttons">
                 <button type="button" value="submit" class="btn btn-info">Speichern</button>
+                <div style="width: 30px;"></div>
                 <button type="button" value="submit" class="btn btn-info">Abschicken</button>
             </div>
 
